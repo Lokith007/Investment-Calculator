@@ -9,7 +9,7 @@ export default function UserInput({onChange,userInput}){
             </p>
             <p>
                 <label>Annual Investment</label>
-                <input type="number" required value={userInput.annualInvestmentInvestment} onChange={(event)=>onChange('annualInvestment',earth.target.value)}/>
+                <input type="number" required value={userInput.annualInvestment} onChange={(event)=>onChange('annualInvestment',earth.target.value)}/>
             </p>
         </div>
         <div className="input-group">
